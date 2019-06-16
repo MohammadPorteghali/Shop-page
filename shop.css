@@ -1,0 +1,425 @@
+.font-pt4 {
+  font-family: 'Roboto', sans-serif;
+  display: block;
+  height: 100%;
+}
+
+.p-3 {
+  font-size: 10px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.head-content {
+  height: 130px;
+}
+
+.head-c-1 {
+  width: 50%;
+  margin: 4% 25%;
+}
+
+.head-c-2 {
+  width: 50%;
+  margin: 4% 26.5%;
+}
+
+.dot-done {
+  height: 25px;
+  width: 25px;
+  background-color: #9875ab;
+  border-radius: 50%;
+  float: left;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #ffe500;
+  border-radius: 50%;
+  float: left;
+}
+
+.p-done {
+  color: #b6b6b6;
+}
+
+.num {
+  color: white;
+  padding: 10px;
+  font-size: 11px;
+}
+
+hr.side {
+  display: block;
+  background-color: #ffe500;
+  border: 1.2px solid #ffe500;
+  width: 200px;
+  float: left;
+  margin-top: 11px;
+}
+
+hr.side-done {
+  display: block;
+  background-color: #9875ab;
+  border: 1.2px solid #9875ab;
+  width: 206px;
+  float: left;
+  margin-top: 11px;
+}
+
+.head-text-1 {
+  position: absolute;
+  margin-left: 373px;
+  margin-top: 25px;
+}
+
+.head-text-2 {
+  position: absolute;
+  margin-left: 587px;
+  margin-top: 25px;
+}
+
+.head-text-3 {
+  position: absolute;
+  margin-left: 814px;
+  margin-top: 25px;
+}
+
+.head-text-4 {
+  position: absolute;
+  margin-left: 1054px;
+  margin-top: 25px;
+}
+
+.items {
+  width: 67%;
+  margin: auto;
+}
+
+.caption {
+  color: #777777;
+  border-bottom: 2px solid #d2d2d2;
+  padding-bottom: 2%;
+}
+
+.dot-d {
+  height: 10px;
+  width: 10px;
+  background-color: #e6e600;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 25px;
+}
+
+.dot-close {
+  float: right;
+  margin-top: 3%;
+  color: #d2d2d2;
+}
+
+.dot-d-2 {
+  height: 10px;
+  width: 10px;
+  background-color: #df4821;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 0px;
+  margin-top: 25px;
+}
+
+.row-pic {
+  position: absolute;
+  width: 80px;
+  height: 90px;
+}
+
+.row-title {
+  font-family: 'Lora', serif;
+  font-size: 3.5vh;
+}
+
+.row-1-item {
+  position: absolute;
+  width: 25%;
+  padding-left: 11%;
+  padding-top: 1%;
+}
+
+.p-48 {
+  padding-right: 48%;
+}
+
+.p-10 {
+  padding-right: 10%;
+}
+
+.p-7 {
+  padding-right: 7%;
+}
+
+.p-13 {
+  padding-right: 13%;
+}
+
+.row-1 {
+  padding-top: 3%;
+  height: 125px;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+.m-13 {
+  margin: 13%;
+  height: auto;
+}
+
+.p-r-25 {
+  padding-right: 25%;
+}
+
+.row-1-price {
+  position: absolute;
+  padding-left: 35%;
+  padding-top: 2%;
+  font-weight: bold;
+}
+
+.row-1-quantity {
+  position: absolute;
+  padding-left: 45%;
+  padding-top: 2%;
+  font-weight: bold;
+  width: 7%;
+}
+
+.border-1 {
+  border: 1px solid #d2d2d2;
+  border-radius: 30px;
+}
+
+.row-1-total {
+  position: absolute;
+  padding-left: 56%;
+  padding-top: 2%;
+  font-weight: bold;
+}
+
+.row-1-item-3 {
+  padding-top: 5%;
+  padding-left: 11%;
+}
+
+.promo-code {
+  float: left;
+  border: 1px solid #d4d3d3;
+  background-color: #f5f5f5;
+  color: #777777;
+  border-radius: 22px;
+  padding: 2% 4%;
+  width: 13%;
+}
+
+.check-color {
+  background-color: #f5f5f5;
+  color: limegreen;
+  float: left;
+  border: none;
+  margin: 2% -4%;
+}
+
+.bold-text {
+  float: left;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.price {
+  float: left;
+  margin-left: 8%;
+}
+
+.check-out {
+  background-color: #9875ab;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+  float: left;
+  border: 1px solid #9875ab;
+  border-radius: 22px;
+  padding: 2% 4%;
+  margin-left: 8%;
+}
+
+
+
+/* page2 */
+
+
+.tick-c{
+  color: white;
+  padding: 7px;
+  font-size: 11px;
+}
+.pay-manner {
+  display: inline-flex;
+}
+.credit-card {
+  border: 2px solid #e6e600;
+  border-radius: 25px;
+}
+.back-card {
+  float: left;
+  border: 1px solid #f3f3f3;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 120px;
+  margin-top: 5%;
+  z-index: 1;
+}
+.back-card-c {
+  border: 1px solid #dfdfdf;
+  background-color: #dfdfdf;
+  padding: 20px;
+  margin: 8%;
+  z-index: 2;
+}
+.back-card-cvv {
+  text-align: center;
+  border: 1px solid #dfdfdf;
+  padding: 9px;
+  margin-top: 12%;
+  z-index: 3;
+}
+.cvv-dec{
+  font-size: 7px;
+  margin-top: 27%;
+  color: gray;
+}
+.front-card {
+  float: left;
+  border: 2px solid #dfdfdf;
+  background-color: white;
+  border-radius: 10px;
+  padding: 94px;
+  margin-top: -18%;
+  z-index: 4;
+}
+.card-number {
+  border: 1px solid #dfdfdf;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  margin-top: -20%;
+  padding: 5px 15px;
+}
+
+.card-month {
+  border: 1px solid #dfdfdf;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  margin-top: -3%;
+  padding: 5px;
+  z-index: 5;
+}
+
+.card-yaer {
+  border: 1px solid #dfdfdf;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: -3%;
+  margin-left: 33%;
+  z-index: 5;
+}
+
+.card-holder-number {
+  border: 1px solid #dfdfdf;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 20%;
+  z-index: 5;
+}
+
+.mastercard {
+  font-size: 60px;
+  margin-left: 75%;
+  margin-top: -28%;
+  z-index: 5;
+}
+.mastercard-color{
+  color: gray;
+}
+.visa-card {
+  font-size: 60px;
+  margin-left: 75%;
+  margin-top: -9%;
+  z-index: 5;
+}
+.visa-card-color{
+  color: gray;
+}
+
+
+.pay-button{
+  background-color: #9875ab;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  border: 1px solid #9875ab;
+  border-radius: 50px;
+  padding: 1% 4%;
+  margin: 5% 25% 0% 0%;
+  float: right;
+}
+.back-button{
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 1% 4%;
+  margin: 5% 0% 0% 25%;
+  float: left;
+}
+
+
+
+
+/* Page 3 */
+
+.p-head{
+  letter-spacing: 3px;
+  color: gray;
+}
+
+.row-whidth{
+  width: 50%;
+}
+.cii{
+  margin-top: 4px;
+  margin-left: -12px;
+  font-size: 9px;
+  position: absolute;
+  color: #9875ab;
+}
+.shpping-s{
+  float: right;
+  margin-right: 15%;
+  margin-top: -18%;
+}
+.back-button-2{
+  background-color: white;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 1% 4%;
+  margin: 100px 0% 0% 25%;
+  float: left;
+}

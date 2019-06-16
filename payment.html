@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="shop.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Lora|Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <title>Payment | Shop</title>
+</head>
+
+<body>
+
+  <div class="font-pt4">
+
+    <div class="head-content">
+      <div class="head-c-2 ">
+        <span class="dot-done"><span class="tick-c"><i class="fas fa-check"></i></span></span>
+        <hr class="side-done">
+      </div>
+
+      <div class="head-c-2 ">
+        <span class="dot-done"><span class="num">2</span></span>
+        <hr class="side">
+      </div>
+
+      <div class="head-c-2 ">
+        <span class="dot"><span class="num">3</span></span>
+        <hr class="side">
+      </div>
+
+      <div class="head-c-2 ">
+        <span class="dot"><span class="num">4</span></span>
+      </div>
+
+
+        <div>
+          <div class="head-text-1">
+            <p class="col-2 offset-3 p-3">CART</p>
+          </div>
+
+          <div class="head-text-2">
+            <p class="col-2 offset-3 p-3">PAYMENT</p>
+          </div>
+
+          <div class="head-text-3">
+            <p class="p-done col-2 offset-3 p-3">DELIVERY</p>
+          </div>
+
+          <div class="head-text-4">
+            <p class="p-done col-2 offset-3 p-3">DONE</p>
+          </div>
+        </div>
+      </div>
+
+
+        <div class="pay-manner col-6 offset-5">
+            <div class="credit-card">
+                <button type="button" class="btn credit-card-p">CREDIT CARD</button>
+              </div>
+                <div class="">
+                    <button type="button" class="btn papal-p"disabled>PAYPAL</button>
+                </div>
+        </div>
+
+
+        <div class="cards">
+          <div class="back-card col-3 offset-5"></div>
+
+          <div class="back-card-c col-3 offset-5 position-absolute">
+
+          <div class="">
+            <input type="text" name="cvv" placeholder="cvv" class="back-card-cvv col-2 offset-8 position-absolute">
+          </div>
+          <span class="col-4 offset-8 position-absolute cvv-dec">code on the </br> back of your</br> credit card</span>
+        </div>
+          <div class="front-card col-3 offset-4">
+            <form class="form" action="payment.html" method="post">
+            <input type="text" placeholder="Card Number" class="card-number col-7 position-absolute">
+              <input type="text" placeholder="Month" class="card-month col-3 position-absolute">
+                <input type="text" placeholder="Year" class="card-yaer col-3 position-absolute">
+                  <input type="text" placeholder="Card Holder Number" class="card-holder-number col-11 position-absolute">
+            </form>
+                 <div class="mastercard"><i class="fab fa-cc-mastercard mastercard-color"></i></div>
+                 <div class="visa-card"><i class="fab fa-cc-visa visa-card-color"></i></div>
+          </div>
+        </div>
+
+        <div class="">
+          <form class="ceck" action="shop.html">
+          <label for="check"></label>
+          <button class="back-button">Back to cart</button>
+        </form>
+        </div>
+
+
+        <div class="">
+          <form class="ceck" action="delivery.html">
+          <label for="check"></label>
+          <button type="submit" class="pay-button">PAY</button>
+          </form>
+        </div>
+
+
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
+
+</html>
